@@ -70,13 +70,13 @@ int main(void)
 			printf("\nYou dealt %d damage!\n", turnDamage);
 		}
 
-		else if (playerChoice == 2)
+		else if (playerChoice == 2) // blocks enemy damage
 		{
 			blockReduction = block();
 			printf("You blocked %d damage!", blockReduction);
 		}
 
-		else if (playerChoice == 3)
+		else if (playerChoice == 3) // heals player
 		{
 	
 			heal = healthPot();
@@ -86,12 +86,12 @@ int main(void)
 			{
 				turnheal = 0;
 
-				printf("\nYou can't heal above 50 Health.\n");
+				printf("\nYou can't heal above 50 Health.\n"); // stops player from healing above 50 hp if at full hp
 			}
 
 			playerHP += turnheal;
 
-			if (playerHP >= 50)
+			if (playerHP >= 50) // stops player from overhealing
 			{
 				playerHP = 50;
 
