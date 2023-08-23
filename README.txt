@@ -13,7 +13,8 @@ For right now I don't plan on making this game too complex. I just wanted to
 freshen up my C skills before the semester started and code something I was 
 interested in. 
 
-Thank you for taking the time to read this, I hope you have
-a great day!
+Thank you for taking the time to read this. Any helpful criticism is
+more than welcome. I'd love to get better at this! I hope you have a great 
+day!
 	- Owen
 ----------------------------------------------------------------------
